@@ -5,8 +5,8 @@ const codeTextarea = document.getElementById('code_textarea');
 function handleSubmit() {
   const code = `
 <div style="width: 100%">
-  <a href="${imageInput.value}" target="_blank">
-    <img src="${redirectURLInput.value}" style="width: 100%" />
+  <a href="${redirectURLInput.value}" target="_blank">
+    <img src="${imageInput.value}" style="width: 100%" />
   </a>
 </div>
   `;
